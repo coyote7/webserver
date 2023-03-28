@@ -1,4 +1,4 @@
-## create  the index file 
+# create  the index file 
 
 ` <!DOCTYPE html>
 <html>
@@ -7,16 +7,16 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<center><h1>Form Submission</h1></center>
-	<form action="verify.php" method="POST">
-		<label for="name">Name:</label>
-		<input type="text" id="name" name="name"><br><br>
-		<label for="email">Email:</label>
-		<input type="email" id="email" name="email" placeholder="xyz@mail.com"><br><br>
-		<label for="password">Password</label>
-		<input type="password" name="password"><br><br>
-		<input type="submit" value="Submit">
-	</form>
+<center><h1>Form Submission</h1></center>
+<form action="verify.php" method="POST">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name"><br><br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email" placeholder="xyz@mail.com"><br><br>
+	<label for="password">Password</label>
+	<input type="password" name="password"><br><br>
+	<input type="submit" value="Submit">
+</form>
 </body>
 </html> `
 
