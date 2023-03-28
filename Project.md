@@ -1,7 +1,5 @@
 # create  the index file 
-`code`
-
-` <!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 <head>
 	<title>Form Submission</title>
@@ -20,6 +18,9 @@
 </form>
 </body>
 </html> `
+`code`
+
+
 
  ## create an external css file (named style.css)
  ` form {
