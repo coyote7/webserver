@@ -11,7 +11,7 @@
 <center><h1>Form Submission</h1></center>
 <form action="verify.php" method="POST">
 	<label for="name">Name:</label>
-	<input type="text" id="name" name="name"><br><br>
+	<input type="text" id="name" name="username"><br><br>
 	<label for="email">Email:</label>
 	<input type="email" id="email" name="email" placeholder="xyz@mail.com"><br><br>
 	<label for="password">Password</label>
@@ -73,7 +73,7 @@ input[type="submit"]:hover {
 // Hardcoded username and password
 $username = "anyone";
 $password = "password123";
-$email = "anyone@mail.com"
+$email = "anyone@mail.com";
 
 // Check if the form has been submitted
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
@@ -81,10 +81,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   // Get the submitted username and password
   $submittedUsername = $_POST['username'];
   $submittedPassword = $_POST['password'];
-  $submittedmail = $_POST['email';]
+  $submittedmail = $_POST['email'];
 
   // Verify the username and password
-  if ($submittedUsername == $username && $submittedPassword == $password &&$submittedmail=$email) {
+  if ($submittedUsername == $username && $submittedPassword == $password && $submittedmail== $email) {
     // Successful login
     echo "Welcome, " . $username . "!";
   } else {
